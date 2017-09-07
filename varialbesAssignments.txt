@@ -1,0 +1,10 @@
+public int IQ = 130;
+// A variable is a line of code containging specific information. We create varialbes to hold the information so that it can be refered back to.
+// The first part is the access modifier. You will name it either public or private. If you don't name it, it will default to private
+// Second is the type of variable. here you specify it has an int, string, float, and other things. This is to specify the type.
+// third is you name the varialbe. 
+// you give the variable and input. 
+
+public float elixar = .02f;
+// you use a float if your variable will not be a whole number
+
