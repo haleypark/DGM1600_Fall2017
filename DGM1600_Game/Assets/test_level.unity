@@ -317,6 +317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 849339894}
   - component: {fileID: 849339893}
+  - component: {fileID: 849339895}
   m_Layer: 0
   m_Name: Game_Manager
   m_TagString: Untagged
@@ -330,18 +331,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 849339892}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9362ef6020dfce408404ac9fd538942, type: 3}
+  m_Script: {fileID: 11500000, guid: ea86684f5835dec4eaeb0e8f8ebd2123, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heros:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  bottles: 100
 --- !u!4 &849339894
 Transform:
   m_ObjectHideFlags: 0
@@ -355,6 +350,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &849339895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 849339892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7c776ff89b9def448e841ba78aee677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luke: Jedi
+  vader: Sith
+  leia: 0
+  darkSide: Darth Maul
+  lightSide: Jar Jar Binks
+  num1: 15
+  num2: 10.5
 --- !u!1 &1630078307
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,7 +11,7 @@ public class WhileLoops : MonoBehaviour {
 	void Start () {
 		while(bottles > 0){
 			bottles -- ;
-			print(bottles + " bottles of beer on the way!");
+			print(bottles + " bottles of beer on the wall!");
 			
 		}
 		
