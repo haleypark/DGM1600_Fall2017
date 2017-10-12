@@ -12,7 +12,7 @@ public class Function : MonoBehaviour {
 	public bool positiveNumber = true;
 
 	public int rabbits = 2;
-	// Use this for initialization
+
 	void Start () {
 		Deathstar(laserBlast);
 
@@ -43,7 +43,7 @@ void Addition (bool num){
 	if(num){
 		print("This was addition.");
 	}
-	else(!num){
+	else{
 		print("This was not addition");
 
 	}
@@ -57,5 +57,5 @@ void Hunger (int food){
 		print("we must hunt for more food.");
 	}
 }
-void 
+
 }
