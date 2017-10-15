@@ -3,14 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Heros : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
+	public string name;
+	public int attack;
+	public Heros(String newName, int newAttack){
+		name = newName;
+		power = newAttack;
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
+	public int CompareTo(Heros other){
+		if(other == null){
+			return 1;
+		}
+		return power - other.power;
 	}
+
 }
